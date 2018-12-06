@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+}
+
+#top-div {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #752DD0;
+    z-index: -2;
+    margin: 0;
+}
+
+#slanted-div{
+    position: relative;
+    width: 100%;
+    height: 275px;
+    background-color: #7652E4;
+    transform-origin: top left;
+    transform: skewY(-4deg);
+}
+
+#slanted-div:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: inherit;
+    transform-origin: top left;
+    transform: skewY(-6.5deg);
+    content: ''
+}
+
+#bottom-div {
+    position: relative;
+    background-color: #736FDF;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    transform-origin: top left;
+    transform: skewY(-4deg);
+    margin: -1px;
+}
+
+
+
+#logo{
+    margin-top: 10;
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+}
+
