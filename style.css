@@ -5,16 +5,27 @@ body {
 #top-div {
     position: relative;
     width: 100%;
-    height: 150px;
+    height: 75px;
     background-color: #752DD0;
-    z-index: -2;
+    z-index: -1;
     margin: 0;
+}
+
+#top-div:after {
+    position: absolute;
+    width: 200%;
+    height: 200px;
+    background-color:inherit;
+    margin: 0;
+    content: '';
+    transform-origin: bottom right;
+    transform: skewY(3deg);
 }
 
 #slanted-div{
     position: relative;
     width: 100%;
-    height: 275px;
+    height: 200px;
     background-color: #7652E4;
     transform-origin: top left;
     transform: skewY(-4deg);
@@ -24,10 +35,10 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    /* z-index: 0; */
     background-color: inherit;
     transform-origin: top left;
-    transform: skewY(-6.5deg);
+    transform: skewY(-10.5deg);
     content: ''
 }
 
@@ -39,14 +50,13 @@ body {
     height: 150px;
     transform-origin: top left;
     transform: skewY(-4deg);
-    margin: -1px;
+    margin: -1px 1px 0 0 ;
 }
 
 
 
-#logo{
-    margin-top: 10;
-    font-family: 'Oxygen', sans-serif;
-    color: white;
-}
 
+
+.on-top{
+    z-index: 2;
+}
