@@ -13,8 +13,9 @@ body {
 
 #top-div:after {
     position: absolute;
-    width: 200%;
-    height: 200px;
+    width: 100%;
+    height: 139%;
+    top: -55px;
     background-color:inherit;
     margin: 0;
     content: '';
@@ -25,10 +26,10 @@ body {
 #slanted-div{
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 250px;
     background-color: #7652E4;
     transform-origin: top left;
-    transform: skewY(-4deg);
+    transform: skewY(-2deg);
 }
 
 #slanted-div:after {
@@ -54,9 +55,32 @@ body {
 }
 
 
-
-
-
 .on-top{
     z-index: 2;
 }
+
+/* .show{
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 30px
+} */
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+
+/* Media Queries */
+@media (max-width: 576px) {
+    .show{
+        position: absolute;
+        z-index: 1;
+        top: 50px;
+        left: 30px
+    }
+  }
+  
+  
