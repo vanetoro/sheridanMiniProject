@@ -24,7 +24,7 @@ body {
 
 .unskew{
     transform: skewY(11deg);
-    padding-top: 120px;
+    padding-top: 89px;
 }
 
 #bottom-div {
@@ -57,6 +57,12 @@ h1{
     width: 200px;
 }
 
+.shadow{
+    box-shadow: 1px
+}
+
+
+
 .btn-search{
         display: inline-block;
         font-weight: 300;
@@ -73,8 +79,14 @@ h1{
         padding: .6rem .8rem;
         font-size: 1rem;
         line-height: 1.5;
-        border-radius: .25rem;
+        border-radius: .75rem;
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.small-font{
+    font-size: .7em;
+    padding-bottom: 1px;
+    text-align: center;
 }
 
 
