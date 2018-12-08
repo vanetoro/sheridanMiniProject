@@ -1,9 +1,30 @@
-.btn{
-    background-color: #B3E4C1;
+/* -------- buttons ----------- */
+.btn-green{
+    background-color: #81D398;
     color: white;
 
 }
 
+.btn-purple{
+    background-color: #736FDF;
+    color: white;
+    font-size: .55em;
+    border-radius: .5rem;
+    line-height: 1.2;
+    padding: .5rem .9rem;
+
+}
+
+.btn-circle{
+    border-radius: 22px;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-top: -14px;
+    box-shadow: 1px 6px 6px 0px lightgrey;
+    font-weight: 200;
+}
+
+/* --------- navbar ---------- */
 .navbar-toggler{
     z-index: 1;
 }
@@ -20,33 +41,28 @@
 .navbar-nav {
     margin-right: 5%;
 }
-.container{
-    z-index: 1;
-}
+
+
+/* --------- searchbar ---------- */
 .form-group{
     display: -webkit-inline-box;
 }
+.form-group:placeholder { /* Chrome/Opera/Safari */
+    color: red;
+  }
+  
 
 
 .form-control {
     width: 285px;
     padding: 1.4rem 1.5rem;
     font-size: 0.90rem;
-    color: grey;
+    /* color: #d6d3d3; */
     border-radius: .75rem;
 }
 
 
-.btn-circle{
-    border-radius: 22px;
-    font-weight: 300;
-    font-size: 1.4rem;
-    margin-top: -14px;
-    box-shadow: 0 1px lightgrey;
-}
-
-
-/* Media Queries */
+/* -------- Media Queries ----------- */
 @media (max-width: 576px) {
     .show{
         position: absolute;
@@ -59,3 +75,9 @@
         margin-left: 0;
         margin-bottom: 10px;
     }
+}
+
+@media (max-width: 767px){
+    .offset-md-3 {
+     margin-left: 25%;
+}
