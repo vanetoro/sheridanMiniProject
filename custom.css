@@ -33,8 +33,17 @@
     padding: 1.4rem 1.5rem;
     font-size: 0.90rem;
     color: grey;
+    border-radius: .75rem;
 }
 
+
+.btn-circle{
+    border-radius: 22px;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-top: -14px;
+    box-shadow: 0 1px lightgrey;
+}
 
 
 /* Media Queries */
@@ -50,16 +59,3 @@
         margin-left: 0;
         margin-bottom: 10px;
     }
-    /* .offset-sm-4 {
-        margin-left: 15%;
-   }
-   .centered{
-       margin-left: 9%
-   }  */
-}
-
-/* @media (min-width: 768px) {
-    .centered{
-        margin-left: 17%
-    } 
-} */
