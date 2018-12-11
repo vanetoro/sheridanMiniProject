@@ -87,7 +87,7 @@ h1{
 .small-font{
     font-size: .7em;
     padding-bottom: 1px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .middle-text{
@@ -99,6 +99,16 @@ h1{
 .services-header{
     padding-top: 30px;
 }
+
+.services-img{
+    height: 149px;
+    margin: -31px -30px 0 -40px;
+}
+
+.margin-top-div{
+    margin-top: 18px;
+}
+
  .line-decoration{
     margin-top: -24px;
  }
