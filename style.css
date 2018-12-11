@@ -27,13 +27,39 @@
 #bottom-div {
     position: relative;
     background-color: #736FDF;
-    position: relative;
     width: 100%;
     height: 150px;
     transform-origin: top left;
     transform: skewY(-11deg) translateY(-1px);
     margin: -1px 1px 0 0 ;
-    /* box-shadow: -1px 4px 14px 0px grey; */
+}
+
+#lower-div{
+    position: relative;
+    background-color: #F6F9FC;
+    width: 100%;
+    height: 389px;
+    transform-origin: top left;
+    transform: skewY(-8deg) translateY(76px);
+    margin: -1px ;
+    z-index: -2;
+}
+
+.footer{
+    position: absolute;
+    background-color: #736FDF;
+    width: 100%;
+    height: 310px;
+    transform: translateY(39px);
+}
+
+.unskew-btm{
+    transform: skewY(8deg);
+   
+}
+
+.unskew-btm p{
+    padding: 111px 289px;
 }
 
 .centered{
