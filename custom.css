@@ -61,6 +61,11 @@
     border-radius: .75rem;
 }
 
+.card-body{
+    display: -webkit-inline-box;
+    background-color: whitesmoke;
+}
+
 
 /* -------- Media Queries ----------- */
 @media (max-width: 576px) {
