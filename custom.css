@@ -23,7 +23,17 @@ h1{
 .btn-purple{
     background-color: #736FDF;
     color: white;
-    font-size: .55em;
+    font-size: .75em;
+    border-radius: .5rem;
+    line-height: 1.2;
+    padding: .5rem .9rem;
+
+}
+
+.btn-white{
+    background-color: white;
+    color: black;
+    font-size: .75em;
     border-radius: .5rem;
     line-height: 1.2;
     padding: .5rem .9rem;
@@ -67,6 +77,13 @@ h1{
     padding-right: 20px;
 }
 
+a, a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: .75rem;
+    font-family: inherit;
+}
+
 
 /* --------- searchbar ---------- */
 .form-group{
@@ -90,6 +107,15 @@ h1{
     display: -webkit-inline-box;
     background-color: whitesmoke;
 }
+
+/* --------icons-------- */
+.fa-phone, .fa-envelope, .fa-map-marker{
+    color: white;
+    margin-right: 10px;
+}
+
+
+
 
 
 /* -------- Media Queries ----------- */
