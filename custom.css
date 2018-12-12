@@ -80,7 +80,6 @@ h1{
 a, a:hover{
     text-decoration: none;
     color: white;
-    font-size: .75rem;
     font-family: inherit;
 }
 
@@ -102,10 +101,12 @@ a, a:hover{
     /* color: #d6d3d3; */
     border-radius: .75rem;
 }
-
+.card{
+    z-index: 1;
+}
 .card-body{
     display: -webkit-inline-box;
-    background-color: whitesmoke;
+    background-color:#F6F9FC;
 }
 
 /* --------icons-------- */
