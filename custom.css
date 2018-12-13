@@ -171,7 +171,10 @@ a:hover {
         margin-bottom: 8%;
 
     }
+
+
 }
+
 
 @media (max-width: 776px) {
     .show {
@@ -202,16 +205,11 @@ a:hover {
         flex: 0 0 22%;
         max-width: 25%;
     }
-    .fa-phone,
-    .fa-envelope,
-    .fa-map-marker {
-     margin-left: 0;
-}
 
 
 }
 
-@media(max-width: 576px){
+@media(max-width: 576px) {
     .icons-display {
         display: inline-block;
         padding-right: 15px;
