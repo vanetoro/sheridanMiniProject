@@ -169,12 +169,8 @@ a:hover {
 @media(max-width: 900px) {
     .footer-row {
         margin-bottom: 8%;
-
     }
-
-
 }
-
 
 @media (max-width: 776px) {
     .show {
